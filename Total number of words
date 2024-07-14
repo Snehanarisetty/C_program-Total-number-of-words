@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()  
+{ 
+	char str[10]; 
+	int count=0;
+	printf("enter the string");
+	gets(str);
+	for(i=0;str[i]=' '&&str[i+1]i=i++)
+	{
+	    count++;
+	}
+	    printf("the total number of words are %d",count)
+}
